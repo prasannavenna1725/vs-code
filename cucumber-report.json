@@ -1,0 +1,84 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "homepage_search;validate-google-search-is-working",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "validate google search is working",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 382032829
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "browser is open",
+            "match": {
+              "location": "tests/steps/homepage.step.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 731896921
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "user is on google search page",
+            "match": {
+              "location": "tests/steps/homepage.step.js:25"
+            },
+            "result": {
+              "status": "pending",
+              "duration": 240433
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user enters a text in search box",
+            "match": {
+              "location": "tests/steps/homepage.step.js:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "user is navigated to search results",
+            "match": {
+              "location": "tests/steps/homepage.step.js:36"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "homepage_search",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "homepage_search",
+    "tags": [],
+    "uri": "tests/feature/homepage.feature"
+  }
+]
